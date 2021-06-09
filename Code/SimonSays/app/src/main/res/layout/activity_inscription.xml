@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InscriptionActivity"
+    android:background="@drawable/abstract_2468874_1280">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:id="@+id/txt_title_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inscription"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_fname_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nom"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <EditText
+        android:id="@+id/ptxt_fname_inscrption_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <TextView
+        android:id="@+id/txt_name_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_prenom"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <EditText
+        android:id="@+id/ptxt_name_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <TextView
+        android:id="@+id/txt_birthday_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_birthday"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <EditText
+        android:id="@+id/ptxt_birthday_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <TextView
+        android:id="@+id/txt_mail_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <EditText
+        android:id="@+id/ptxt_mail_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <TextView
+        android:id="@+id/txt_sexe_inscrption_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_sexe"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <RadioGroup
+        android:id="@+id/id_radiogroup_sexe"
+        android:layout_width="171dp"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline9">
+
+
+        <RadioButton
+            android:id="@+id/rbtn_man_inscription_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rdbtn_man"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+        <RadioButton
+            android:id="@+id/rbtn_girl_inscription_id"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:text="@string/rdbtn_girl"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="268dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_mdp_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_mdp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+    <EditText
+        android:id="@+id/ptxt_mdp_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+    <Button
+        android:id="@+id/btn_validation_inscription_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:onClick="validation"
+        android:text="@string/bouton_inscription_valider"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

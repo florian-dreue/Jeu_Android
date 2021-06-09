@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SimonSays</string>
+    <string name="inscription">Inscription</string>
+    <string name="bouton_inscription_valider">Valider</string>
+    <string name="titre_classement">Classement des meilleurs joueurs</string>
+    <string name="BoutonStart">Start</string>
+    <string name="Rouge">Rouge</string>
+    <string name="Bleu">Bleu</string>
+    <string name="Vert">Vert</string>
+    <string name="Jaune">Jaune</string>
+    <string name="titre_main">Simon Says</string>
+    <string name="btn_facile_mode">Facile</string>
+    <string name="btn_hard_mode">Difficile</string>
+    <string name="btn_expert_mode">Expert</string>
+    <string name="mail">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="btn_validation">Valider</string>
+    <string name="connection_title">Veuillez saisir vos informations</string>
+    <string name="txt_nom">Nom</string>
+    <string name="txt_prenom">Prénom</string>
+    <string name="txt_birthday">Date de naissance</string>
+    <string name="txt_sexe">Sexe</string>
+    <string name="txt_mdp">Mot de passe</string>
+    <string name="rdbtn_man">Homme</string>
+    <string name="rdbtn_girl">Femme</string>
+    <string name="connection">Connexion</string>
+    <string name="txt_classement">Classement des meilleurs joueurs</string>
+    <string name="txt_yourscore_home">Votre Score</string>
+    <string name="Image_Coeur_aveugle">Image de Coeur pour la vie</string>
+    <string name="txt_yourscore_level">Votre score :</string>
+    <string name="txt_play_home_id">Jouer</string>
+    <string name="Violet">Violet</string>
+    <string name="Orange">Orange</string>
+    <string name="Cyan">Cyan</string>
+    <string name="Marron">Marron</string>
+    <string name="Teal">Teal</string>
+    <string name="Rose">Rose</string>
+    <string name="txt_levelone">Niveau 1</string>
+    <string name="txt_round">Round :</string>
+    <string name="txt_levetwo">Niveau 2</string>
+    <string name="txt_levelthree">Niveau 3</string>
+    <string name="txt_levelfour">Niveau 4</string>
+    <string name="txt_levelfive">Niveau 5</string>
+    <string name="txt_levelsix">Niveau 6</string>
+    <string name="txt_levelseven">Niveau 7</string>
+    <string name="txt_information">Information</string>
+    <string name="btn_return">Retour</string>
+    <string name="txt_easy_desc">"Dans le mode facile, vous commencez chaque round avec 1 bouton qui s'allume et vous gagnez 1 point pour chaque round gagné. Chaque niveau est composé de 10 rounds."</string>
+    <string name="txt_hard_desc">"Dans le mode difficile, vous commencez chaque round avec 3 bouton qui s'allume et vous gagnez 1.5 point pour chaque round gagné. Chaque niveau est composé de 12 rounds."</string>
+    <string name="txt_expert_desc">"Dans le mode expert, vous commencez chaque round avec 5 bouton qui s'allume et vous gagnez 3 point pour chaque round gagné. Chaque niveau est composé de 15 rounds."</string>
+    <string name="txt_facile_info">Mode Facile :</string>
+    <string name="txt_hard_info">Mode Difficile</string>
+    <string name="txt_expert_info">Mode Expert</string>
+    <string name="txt_info">"Bienvenue dans SimonSays! Tout d'abord, merci d'avoir installé notre application :) ! Dans SimonSays vous devez tout d'abord choisir un mode de difficulté. Une fois cela fait vous devrez appuyer sur le bouton start afin de démarrer le jeu.
+        Une fois le bouton pressé, une série de bouton va changer de couleur, une fois que plus aucun bouton ne s'allume c'est à vous de jouer :) ! Pressez les boutons dans l'ordre dans lequel ils sont apparus.
+        Si vous avez réussi à refaire l'enchaînement de bouton un message vous disant bravo apparaîtras et la chaîne se rejouras avec un bouton qui s'allume en plus.
+        Le jeu se termine au bout de 7 niveau! Vous pouvez cliquez sur le bouton "Bleu" ci-dessous pour voir à quoi ressemble un bouton qui s'allume.
+        Bonne chance!"</string>
+    <string name="val_null">0</string>
+</resources>

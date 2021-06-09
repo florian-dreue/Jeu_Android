@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelTwoActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.24" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.72" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.82" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.91" />
+
+    <ImageView
+        android:id="@+id/img_coeur1_id_leveltwo"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:contentDescription="@string/Image_Coeur_aveugle"
+        android:src="@drawable/coeur"
+        app:layout_constraintBottom_toTopOf="@+id/guideline26"
+        app:layout_constraintEnd_toStartOf="@+id/guideline32"
+        app:layout_constraintStart_toStartOf="@+id/guideline31"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_coeur2_id_leveltwo"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:contentDescription="@string/BoutonStart"
+        android:src="@drawable/coeur"
+        app:layout_constraintBottom_toTopOf="@+id/guideline26"
+        app:layout_constraintEnd_toStartOf="@+id/guideline33"
+        app:layout_constraintStart_toStartOf="@+id/guideline32"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_coeur3_id_leveltwo"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:contentDescription="@string/Image_Coeur_aveugle"
+        android:src="@drawable/coeur"
+        app:layout_constraintBottom_toTopOf="@+id/guideline26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline33"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_yourscore_level_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_yourscore_level"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/guideline26"
+        app:layout_constraintEnd_toStartOf="@+id/guideline29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_score_level_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/val_null"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/guideline26"
+        app:layout_constraintStart_toEndOf="@+id/txt_yourscore_level_id"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_round_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_round"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        app:layout_constraintEnd_toStartOf="@+id/guideline29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline26" />
+
+    <TextView
+        android:id="@+id/txt_niveau_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_levetwo"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/guideline26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_nbround_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/val_null"
+        android:textColor="@color/grey"
+        app:layout_constraintStart_toEndOf="@+id/txt_round_id"
+        app:layout_constraintTop_toTopOf="@+id/guideline26" />
+
+    <Button
+        android:id="@+id/btn_red_id"
+        android:layout_width="99dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/red_dark"
+        android:onClick="btnOnClick"
+        android:text="@string/Rouge"
+        app:layout_constraintBottom_toTopOf="@+id/guideline27"
+        app:layout_constraintEnd_toStartOf="@+id/guideline30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_yellow_id"
+        android:layout_width="99dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/yellow_dark"
+        android:onClick="btnOnClick"
+        android:text="@string/Jaune"
+        app:layout_constraintBottom_toTopOf="@+id/guideline27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline30"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <Button
+        android:id="@+id/btn_purple_id"
+        android:layout_width="99dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/purple_dark"
+        android:onClick="btnOnClick"
+        android:text="@string/Violet"
+        app:layout_constraintBottom_toTopOf="@+id/guideline28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline27" />
+
+    <Button
+        android:id="@+id/btn_start_id"
+        android:layout_width="189dp"
+        android:layout_height="118dp"
+        android:backgroundTint="@color/grey"
+        android:text="@string/BoutonStart"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline27" />
+
+    <Button
+        android:id="@+id/btn_blue_id"
+        android:layout_width="99dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/blue_dark"
+        android:onClick="btnOnClick"
+        android:text="@string/Bleu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline28" />
+
+    <Button
+        android:id="@+id/btn_green_id"
+        android:layout_width="99dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/green_dark"
+        android:onClick="btnOnClick"
+        android:text="@string/Vert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline30"
+        app:layout_constraintTop_toTopOf="@+id/guideline28" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
